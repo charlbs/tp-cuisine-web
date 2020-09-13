@@ -1,0 +1,373 @@
+
+<!Doctype html>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+
+<html>
+    <head>
+        <title>exercice </title>
+        <meta charset="utf-8">
+     <style>
+         *{
+             font-family: arial;
+         }
+       header{
+           position: relative;
+           background-color: black;
+           color: white;
+           padding-left: 20px;
+       }
+       .bouton{
+           position: absolute;
+           left: 92%;
+           bottom: 20%;
+           border: none;
+           background-color: white;
+           border-radius: 10px;
+       }
+       .fab{
+           color: red;
+           font-size: 55px;
+       }
+       #loupe{
+                    position: absolute;
+                    bottom: 25%;
+                    left: 5%;
+                    cursor: pointer;
+                    color: grey;
+                }
+                p{
+                    text-align: justify;
+                }
+                .text{
+                    border-radius: 10px;
+    border: solid #80808069 0.5px;
+    width: 60%;
+    height: 40px;
+    top: 8%;
+    left: 3%;
+    position: absolute;
+    margin-top: 2%;
+        }
+        textarea:focus, .boutton :focus, .search:focus{
+                outline: none;
+                }
+                .search{
+                    border: none;
+            width: 85%;
+            height:80%;
+            padding-left:10px;
+           padding-top: 5px;
+           position: absolute;
+           left: 10%;
+         
+        }
+        .b{
+            position: absolute;
+            left: 67%;
+            top: 9%;
+            margin-top: 2%;
+        }
+        .span{
+            position: absolute;
+    left: 75%;
+    top: 9%;
+    word-spacing: 25px;
+    color: grey;
+    opacity: 0.5;
+    margin-top: 2%;
+        }
+        .circle{
+            position: absolute;
+            left:41%;
+            background-color: grey;
+            border: none;
+            border-radius: 10px;
+            width: 20px;
+            height: 20px;
+            color: black;
+        }
+        .circle{
+            position: absolute;
+            left: 29%;
+            background-color: grey;
+            border: none;
+            border-radius: 10px;
+            width: 20px;
+            height: 20px;
+            color: black;
+        }
+        .p_center{
+            position: absolute;
+            left: 25%;
+            font-size: 15px;
+        }
+        .red{
+            color: red;
+        }
+        .principal{
+            position: relative;
+            
+            height:750px;
+            width: 100%;
+        }
+        .principal1{
+            
+            height:750px;
+            width: 15%;
+        }
+        .principal2{
+            position: absolute;
+            left: 17%;
+            top: 0%;
+         
+            height:750px;
+            width: 15%;
+        }
+        .principal3{
+            position: absolute;
+            left: 34%;
+            top: 0%;
+           
+            height:750px;
+            width: 15%;
+        }
+        .principal4{
+            position: absolute;
+            left: 51%;
+            top: 0%;
+           
+            height:750px;
+            width: 15%;
+        }
+        .principal5{
+            position: absolute;
+            left: 68%;
+            top: 0%;
+            
+            height:750px;
+            width: 15%;
+        }
+        .principal6{
+            position: absolute;
+            left: 85%;
+            top: 0%;
+           
+            height:750px;
+            width: 15%;
+        }
+        .principal1_1{
+            position: absolute;
+            height:750px;
+            width: 15%;
+           
+            height:500px;
+            width: 15%;
+            border-radius: 10px;
+           
+        }
+        .principal1_2{
+            position: absolute;
+           
+           
+            height:220px;
+            width: 15%;
+            bottom: 0%;
+            border-radius: 10px;
+            
+        }
+        .principal2_1{
+            position: absolute;
+            border-radius: 10px;
+            top: 0%;
+           
+            height:300px;
+            width: 100%;
+           
+        }
+        .principal2_2{
+            position: absolute;
+            border-radius: 10px;
+            bottom: 0%;
+           
+            height:420px;
+            width: 100%;
+           
+        }
+        .principal3_1{
+            position: absolute;
+            border-radius: 10px;
+            top: 0%;
+          
+            height:450px;
+            width: 100%;
+           
+        }
+        .principal3_2{
+            position: absolute;
+            border-radius: 10px;
+            bottom: 0%;
+           
+            height:270px;
+            width: 100%;
+           
+        }
+        .principal4_1{
+            position: absolute;
+            border-radius: 10px;
+            top: 0%;
+            height: 304px;
+            
+           
+        }
+        .principal4_2{
+            position: absolute;
+            border-radius: 10px;
+            top: 326px;
+    height: 241px;
+            width: 100%;
+           
+        }
+        .principal4_3{
+            position: absolute;
+            border-radius: 10px;
+            bottom: 0%;
+            
+            height: 153px;
+            width: 100%;
+           
+        }
+        
+        .principal5_1{
+            position: absolute;
+    border-radius: 10px;
+    bottom: 32%;
+    
+    height: 301px;
+    width: 100%;
+           
+        }
+        .principal5_2{
+            position: absolute;
+            border-radius: 10px;
+            top: 0%;
+            
+            height: 172px;
+            width: 100%;
+           
+        }
+        .principal5_3{
+            position: absolute;
+            border-radius: 10px;
+            bottom: 0%;
+           
+            height:200px;
+            width: 100%;
+           
+        }
+        .principal6_1{
+            position: absolute;
+            border-radius: 10px;
+            top: 0%;
+            
+            height: 350px;
+           
+           
+        }
+        .principal6_2{
+            position: absolute;
+            border-radius: 10px;
+            bottom: 0%;
+           
+            height: 377px;
+            
+           
+        }
+        .img1{
+            height:100%;
+            width: 100%;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+       
+     </style>
+    </head>
+    <body>
+        <header>
+            <p>Nous avons mis à jour notre <u>politique de confidentalité</u> et notre <u>politique d'usage des cookies</u> pour vous aider à comprendre <input type="submit" value="Compris !"class="bouton"> <br>concrètement comment Pinterest utilise les données. <u>En savoir plus</u></p>
+        </header>
+        <br><br>
+     <div>
+        <i class="fab fa-pinterest"></i>
+          <div class="text"><i class="fas fa-search"id="loupe"></i><input type="text" placeholder="Rechercher" class="search"> </div><b class="b">Accueil</b>
+      <span class="span">
+          Abonnement
+      <span class="circle">
+          <b class="p_center">
+              p
+          </b>
+      </span>
+          Phillipe
+          <i class="fas fa-comment-dots"><span class="un"><b class="red">1</b></span></i>
+          <i class="fas fa-bell"><span class="neufs"><b class="red">9+</b></span></i>
+          <i class="fas fa-ellipsis-h"></i>
+      </span>
+     </div><br>
+     <hr>
+     <div class="principal">
+        <div class="principal1">
+            <div class="principal1_1">
+           <img src="img/img1.png" class="img1">
+            </div>
+            <div class="principal1_2">
+                <img src="img/img2.png" class="img1">
+            </div>
+        </div>
+        <div class="principal2">
+            <div class="principal2_1">
+                <img src="img/img3.png" class="img1">
+            </div>
+            <div class="principal2_2">
+                <img src="img/img4.png" class="img1">
+            </div>
+        </div>
+        <div class="principal3">
+            <div class="principal3_1">
+                <img src="img/img5.png" class="img1">
+            </div>
+            <div class="principal3_2">
+                <img src="img/img6.png" class="img1">
+            </div>
+        </div>
+        <div class="principal4">
+            <div class="principal4_1">
+                <img src="img/img8.png" class="img1">
+            </div>
+            <div class="principal4_2">
+                <img src="img/img7.png" class="img1">
+            </div>
+            <div class="principal4_3">
+                <img src="img/img9.png" class="img1">
+            </div>
+        </div>
+        <div class="principal5">
+            <div class="principal5_1">
+                <img src="img/img12.png" class="img1">
+            </div>
+            <div class="principal5_2">
+                <img src="img/img10.png" class="img1">
+            </div>
+            <div class="principal5_3">
+                <img src="img/img13.png" class="img1">
+            </div>
+        </div>
+        <div class="principal6">
+            <div class="principal6_1">
+                <img src="img/img14.png" class="img1">
+            </div>
+            <div class="principal6_2">
+                <img src="img/img15.png" class="img1">
+            </div>
+        </div>
+     </div>
+    </body>
+</html> 

@@ -1,0 +1,154 @@
+
+<!Doctype html>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+
+<html>
+    <head>
+        <title>exercice </title>
+        <meta charset="utf-8">
+     <style>
+        .img_1{
+            width: 20px;
+            height: 20px;
+           position: absolute;
+           bottom: 50%; 
+           right: 8%;
+           cursor: pointer;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            text-decoration:underline;
+            color: black;
+        }
+        .mots{
+          
+           position: absolute;
+           bottom: 50%; 
+           right: 12%;
+          
+        }
+        .boutton{
+          position: absolute;
+          bottom: 50%; 
+          right: 0%;
+          background-color: blue;
+          color: white;
+          border: none;
+          width: 80px;
+          height: 25px;
+          border-radius: 5px;
+          text-align: center;
+          cursor: pointer;
+       }
+       .boutton_1_2{
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+       }
+       .boutton_1_2:hover{
+           border: solid 1px rgb(130, 130, 131);
+       }
+        nav{
+            position: relative;
+            width: 98.5%;
+            height: 60px;
+            margin-top: 1%;
+            text-align: end;
+            word-spacing: 20px;
+            font-size: 15px;
+        }
+        .search{
+            border:none;
+            width: 85%;
+            height:80%;
+            padding-left:10px;
+           padding-top: 5px;
+           
+        }
+        .text{
+            border-radius: 20px;
+            border: solid #80808069 0.5px;
+            width: 47%;
+            height: 40px;
+            position: relative;
+        }
+        textarea:focus, .boutton :focus, .search:focus{
+                outline: none;
+                }
+                #loupe{
+                    position: absolute;
+                    bottom: 25%;
+                    left: 5%;
+                    cursor: pointer;
+                    color: grey;
+                }
+                #micro{
+                    position: absolute;
+                    bottom: 25%;
+                    right: 5%;
+                    color: grey;
+                    cursor: pointer;
+                }
+                u{
+                    color: blue;
+                }
+                *{
+                    font-family: arial;
+                }
+                #google{
+                        font-size: 12px;
+                }
+                footer{
+                    width: 98.5%;
+                    position: absolute;
+                    bottom: 0px;
+                }
+                .textes{
+                    float: right;
+                }
+                .principal{
+                    margin-top: 10%;
+                }
+     </style>
+    </head>
+    <body>
+        
+     <nav>
+         <span class="mots"><a href="#">Gmail</a> <a href="#">Images</a>    </span><a href="#"><img src="img/img.png" class="img_1"></a> <input type="submit" value="Connexion" class="boutton">
+     </nav>
+      <div class="principal">
+          <center><img src="img/google.png"></center>
+          <br>
+          <center><div class="text"><i class="fas fa-search"id="loupe"></i><input type="text" class="search"><i class="fas fa-microphone" id="micro"></i></div>
+        <br><br><input type="submit" value="Recherche sur google"class="boutton_1_2"> <input type="submit" value="Recherche sur google"class="boutton_1_2">
+    <br><br><span id="google">Google disponible en : <u>English</u></span>    
+    </center>
+      </div>
+     <footer>
+         <hr>
+                Cameroun
+        <hr>
+        <div class="texts">
+            <span class="texte">Publicité Entreprise À propos Comment fonctionne la recherche Google ?</span>
+            <span class="textes">Confidentialité Conditions Paramètres
+            </span>
+        </div>
+
+     </footer>
+    </body>
+</html> 
